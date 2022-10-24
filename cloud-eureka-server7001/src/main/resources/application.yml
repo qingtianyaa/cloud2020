@@ -13,6 +13,6 @@ eureka:
       #      单机模式
       defaultZone: http://eureka7002.com:7002/eureka/
   server:
-    #    在eurekaServer端7001处设置关闭自我保护机制
+    #在eurekaServer端7001处设置关闭自我保护机制
     enable-self-preservation: false
     eviction-interval-timer-in-ms: 5000
